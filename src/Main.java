@@ -43,8 +43,8 @@ public class Main {
         var diff = boxer2 - boxer1;
         System.out.println(diff + "кг. разница между массами бойцов");
         // Task 7
-        var rem = boxer2 % boxer1;
-        System.out.println(rem + "остаток от деления");
+        var remainder = boxer2 % boxer1;
+        System.out.println(remainder + "остаток от деления");
         // Task 8.1
         var workTime = 640;
         var oneWorkerTime = 8;
